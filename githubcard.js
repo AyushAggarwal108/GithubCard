@@ -36,11 +36,10 @@ submit.addEventListener('click', function () {
                 link.removeAttribute('href')
             }
         })
+        message.style.visibility = 'visible'
+        message.style.opacity = '1';
+        search.value = ''
     }
-
-    message.style.visibility = 'visible'
-    message.style.opacity = '1';
-    search.value = ''
 })
 
 
