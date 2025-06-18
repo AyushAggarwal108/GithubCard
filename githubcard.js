@@ -36,6 +36,7 @@ submit.addEventListener('click', function () {
                 avatar.src = `no-title.jpg`
                 bio.innerHTML = `This is a short bio about the user. It can be a brief description of their interests, skills, or anything they want to share.`
                 followers.innerHTML = `Followers :`
+                link.removeAttribute('href')
             }
         })
     }
