@@ -17,10 +17,7 @@ search.addEventListener('keydown', function (event) {
 
 submit.addEventListener('click', function () {
     const str = search.value.trim()
-    if(str === '') {
-        message.innerHTML = 'Enter Username'
-    }
-    else {
+    if(str !== '') {
         check(str, function(isvalid, data) {
             if(isvalid === true) {
                 message.innerHTML = 'User Founded!'
