@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Github Card</title>
+    <link rel="stylesheet" href="githubcard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style = "font-family: 'Roboto', sans-serif; " >
+    <div class = "container">
+        <div class = "desc">
+            <h1>Enter GitHub Username</h1>
+            <input type = "text" id = "username" placeholder="Type here...">
+            <button id = "submit">Submit</button>
+            <h2 id = "message">Finding</h2>
+        </div>
+        
+        <div class = "card">
+            <img src="no-title.jpg" alt="User Avatar" class="avatar">
+            <h3 class="username">Username</h3>
+            <p class="bio">This is a short bio about the user. It can be a brief description of their interests, skills, or anything they want to share.</p>
+            <a class = "link">Profile Link</a>
+            <p class = "followers">Followers :</p>
+        </div>
+    </div>
+
+    <script src="githubcard.js"></script>
+</body>
+</html>
